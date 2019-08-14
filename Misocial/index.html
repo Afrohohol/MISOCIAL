@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Social Marketing & Analytics</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&display=swap');
+</style>
+</head>
+<body>
+    <ul class="m-menu">
+                    <li class="close-menu">&times;</li>
+                    <li><a href="#" class="menu-link">Home</a></li>
+                    <li><a href="#" class="menu-link">Why MISOCIAL</a></li>
+                    <li><a href="#" class="menu-link">Features</a></li>
+                    <li><a href="#" class="menu-link">Articles</a></li>
+                    <li><a href="#" class="menu-link">Pricing</a></li>
+                    <li><a href="#" class="get-started menu-link">Get Started</a></li>
+                </ul>
+    <header>
+    	<div class="overlay"></div>
+    	<div class="main">
+    		<div class="logo">
+    			<img src="img/logo.png" alt="logo">
+    		</div>
+            <a href="#" class="m-menu-link">
+                <i class="fa fa-bars"></i>
+            </a>
+    		<div class="menu visible">
+    			<ul>
+    				<li><a href="#" class="menu-link">Home</a></li>
+    				<li><a href="#" class="menu-link">Why MISOCIAL</a></li>
+    				<li><a href="#" class="menu-link">Features</a></li>
+    				<li><a href="#" class="menu-link">Articles</a></li>
+    				<li><a href="#" class="menu-link">Pricing</a></li>
+    				<li><a href="#" class="get-started menu-link">Get Started</a></li>
+    			</ul>
+    		</div>
+    	</div>
+        <div class="main-text">
+            <span>― social marketing & analytics ―</span>
+            <h1>Pricing Table</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        </div>
+        <a class="arrow" href="#">
+            <img src="img/arrow.png" alt="arrow">
+        </a>
+    </header>
+    <section class="table">
+        <div class="table-header">
+            <span>Misocial</span>
+            <h2>Select a Plan</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        </div>
+        <div class="price-tags">
+            <div class="price-tag">
+                <img src="img/asset1.png" alt="">
+                <span>personal</span>
+                <h4><sup>$</sup>0<sub>/month</sub></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit velit, minima consequuntur distinctio natus nihil, vel quas recusandae aliquid cumque sunt voluptas praesentium commodi veniam, porro repellat ut autem itaque.</p>
+                <button class="price-btn">Select Plan</button>
+            </div>
+            <div class="price-tag">
+                <img src="img/asset2.png" alt="">
+                <span>personal</span>
+                <h4><sup>$</sup>29<sub>/month</sub></h4>
+                <p>Molestias illo amet incidunt, veritatis rerum quasi suscipit cum unde, quo repellat quae officiis laudantium nesciunt non? Distinctio, repellendus! Quam modi illo illum voluptatibus, tempora quis perspiciatis! Ut, ad. Iste.</p>
+                <button class="price-btn">Select Plan</button>
+            </div>
+            <div class="price-tag">
+                <img src="img/asset3.png" alt="">
+                <span>personal</span>
+                <h4><sup>$</sup>49<sub>/month</sub></h4>
+                <p>Eos facere hic possimus iusto ipsam, nobis animi quisquam sunt dolorem veritatis, numquam vitae laborum rem tempore harum autem! Ratione voluptatum quidem labore, neque id ducimus magni perferendis doloremque ipsa!</p>
+                <button class="price-btn">Select Plan</button>
+            </div>
+        </div>
+    </section>
+    <section class="control">
+        <span>Social Marketing & Analytics</span>
+        <h4>Take control of your data</h4>
+        <button>Get Started</button><button>Explore Features</button>
+    </section>
+    <div class="footer-wrap">
+    <footer>
+        <img src="img/logo2.png" alt="logo">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#" class="footer-menu-link">Home</a></li>
+                <li><a href="#" class="footer-menu-link">Why MISOCIAL</a></li>
+                <li><a href="#" class="footer-menu-link">Features</a></li>
+                <li><a href="#" class="footer-menu-link">Articles</a></li>
+                <li><a href="#" class="footer-menu-link">Pricing</a></li>
+                <li><a href="#" class="footer-get-started footer-menu-link">Get Started</a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+    <div class="line"></div>
+    <div class="legal">
+        <div class="copy">
+            <p>© 2017 Mass Impressions & Tranmautritam. Make the right impression.</p>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+   $(function() {
+       var link = $('.m-menu-link');
+       var close = $('.close-menu');
+       var menu = $('.m-menu');
+       link.on('click', function(event) {
+           event.preventDefault();
+           menu.toggleClass('m-menu_active');
+       });
+       close.on('click', function(event) {
+           event.preventDefault();
+           menu.toggleClass('m-menu_active');
+       });
+   });
+  </script>
+
+</body>
+</html>
